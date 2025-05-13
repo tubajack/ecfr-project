@@ -1,0 +1,17 @@
+			# Get the title number
+			title_no = int(file.split("_")[1].split(".")[0])
+			
+			full_text = data.get("text", "")
+			word_count = len(full_text.split())
+
+			checksum = calculate_checksum(full_text)
+
+			# Count unique words
+			unique_words = len(set(full_text.lower().split()))
+
+			summary1.append({
+				"title": title_no,
+				"word_count": word_count,
+				"checksum": checksum,
+				"unique_words": unique_words
+			})
