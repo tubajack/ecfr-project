@@ -21,11 +21,14 @@ o	checksum
 
 Assignment Feedback
 This assignment was very thoughtfully designed and offered a good balance between backend development and frontend display. It was great to demonstrate: 
+
 •	Data processing using these Python frameworks
 o	BeautifulSoup- Used for parsing
 o	Hashlib
 o	JSON
+
 •	Organized file and directory handling
+
 •	Web application development using Flask and HTML (would have used CSS and JavaScript if I were to take this project further). 
 
 While the scope of the project was manageable, I had to carefully debug filename parsing logic, which was a strong test of attention to detail (very important in software development) and writing robust code.
