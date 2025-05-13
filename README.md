@@ -23,8 +23,11 @@ Assignment Feedback
 This assignment was very thoughtfully designed and offered a good balance between backend development and frontend display. It was great to demonstrate: 
 
 •	Data processing using these Python frameworks
+
 o	BeautifulSoup- Used for parsing
+
 o	Hashlib
+
 o	JSON
 
 •	Organized file and directory handling
