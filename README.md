@@ -8,14 +8,19 @@ Overview
 This coding assignment involved building a dashboard to visualize and analyze parsed data from a set of HTML and XML documents representing titles of the Electronic Code of Federal Regulations (eCFR). The project involved writing several Python scripts to extract content and complete summary metrics. Once that was done, those metrics were displayed in a user-friendly dashboard. 
 
 The final project consisted of: 
+
 •	download_ecfr.py script which downloaded all of the files from the eCFR site. 
+
 •	parse_ecfr.py script which parsed the files. 
+
 •	create_summary.py script which created the summary statistics including
 o	title
 o	agency
 o	wordcount (number of words)
 o	checksum
+
 •	index.html- This is the Main UI template in the project. 
+
 •	app.py- Backend file serving the ‘index.html’ file. This file handles API endpoints. 
 
 
